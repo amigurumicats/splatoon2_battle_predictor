@@ -12,7 +12,7 @@ NNでSplatoon2のブキ構成・ステージから勝敗を学習・予測する
 ### Data
 stat.inkさんのbattle-result-csv.zipをダウンロードしてきます。解凍します。
 ```
-python data_preprocess.py <path/to/battle-result-csv/>
+python data_preprocess.py <path/to/battle-result-csv>
 ```
 weapon.vocab、stage.vocab、train.json、dev.json、test.jsonが作成されます。
 
